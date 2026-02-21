@@ -18,4 +18,4 @@ connex_app.add_api("swagger.yml", base_path="/api")
 if __name__ == "__main__":
     with app.app_context():
         db.create_all()
-    connex_app.run(host="0.0.0.0", port=5000)
+    connex_app.run(host="0.0.0.0", port=5004)
